@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    margin-left: 100px;
+    font-size: 80px;
+    color: blue;
+    float: left;
+}
+
+.navbar{
+    margin-left: 100px;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    padding: 30px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar ul li a:hover{
+    cursor: pointer;
+    background-color: yellow;
+}
+
+.banniere{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.prestations{
+    position: absolute;
+    background-color: rgba(0, 0, 255, 0.664);
+    top: 200px;
+    left: 50px;
+    height: 110px;
+    width: 30%;
+    color: white;
+    padding: 4px;
+    font-size: 17px;
+    line-height: 18px;
+}
+
+.prestations p{
+    padding: 2px 16px;
+}
+
+.container{
+    display: flex;
+    margin-left: 100px;
+}
+
+.card{
+    margin-top: 1rem;
+    width: 350px;
+    height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: white;
+    margin-right: 20px;
+}
+
+.cardbody{
+    padding: 2px 16px;
+}
+
+.voirplus {
+    position: absolute;
+    color: white;
+    width: 120px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: blue;
+    top: 90%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+
+.voirplus p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.article{
+    margin-left: 150px;
+}
+
+.article h1{
+    color: blue;
+    margin-top: 3rem;
+}
+
+.article p{
+    margin-left: 1rem;
+}
+
+.vertical-line-article{
+    border-left: 2px solid blue;
+    display: inline-block;
+    height: 30px;
+    margin: 0 20px;
+}
+
+footer{
+    background-color: blue;
+    margin-top: 100px;
+    padding: 30px 0;
+    display: flex;
+}
+
+.footerbody{
+    display: flex;
+    margin-left: 120px;
+    color: white;
+}
+
+.vertical-line{
+    border-left: 2px solid white;
+    display: inline-block;
+    height: 200px;
+    margin: 0 20px;
+}
+
+footer p{
+    color: white;
+}
+
+.agi{
+    margin-right: 100px;
+}
+
+.liens{
+    margin-right: 100px;
+    margin-left: 80px;
+}
+
+.liens p a{
+    text-decoration: none;
+    color: white;
+}
