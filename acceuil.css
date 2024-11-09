@@ -5,8 +5,8 @@ body{
 header{
 	padding: 0;
 	margin: 0;
-	position: fixed;
 	width: 200vh;
+	height: 120px;
 	padding-left: 30px;
 	display: flex;
 	justify-content: space-between;
@@ -16,9 +16,18 @@ header{
 
 .logo{
 	font-size: 100px;
+	top: 38px;
+	position: relative;
 	color: rgb(45, 45, 165);
 	text-decoration: none;
 	font-weight: 700;
+	object-fit: cover;
+}
+
+.sous{
+	margin-bottom: 40px;
+	font-size: 14.5px;
+	color: rgb(3, 56, 136);
 }
 
 nav ul{
@@ -47,10 +56,11 @@ nav ul li a{
 	z-index: -100;
 }
 
-p{
+.milieu{
 	font-size: 20px;
+	background-color: aqua;
 	color: white;
-	padding-top: 400px;
+	margin-top: 300px;
 	margin-left: 500px;
 }
 
@@ -80,3 +90,53 @@ p{
 	color: rgb(58, 50, 50);
 }
 
+.texte a{
+	border: 5px solid rgb(21, 21, 22);
+	margin-left: 100px;
+	background-color: rgb(14, 11, 11);
+	border-radius: 5px;
+	text-decoration: none;
+	color: white;
+}
+
+section article{
+	background-color: rgb(18, 18, 241);
+}
+
+section article h1{
+	text-align: center;
+	margin-left: 550px; 
+	font-size: 30px;
+	color: white;
+}
+
+section article .avant{
+	margin-left: 200px;
+	color: rgba(255, 255, 255, 0.582);
+}
+
+section article h3{
+	font-size: 20px;
+	margin-left: 200px;
+	color: white;
+}
+
+section article .apres{
+	margin-left: 200px;
+	color: rgba(255, 255, 255, 0.589);
+}
+
+section article h5{
+	font-size: 15px;
+	margin-left: 200px;
+	color: white;
+}
+
+section article a{
+	margin-left: 200px;
+	border: 5px solid;
+	border-radius: 10px;
+	color: rgba(255, 255, 255, 0.527);
+	background-color: rgb(61, 58, 58);
+	text-decoration: none;
+}
