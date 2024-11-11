@@ -1,0 +1,55 @@
+.cardlogiciel{
+    margin-top: 1rem;
+    width: 350px;
+    height: 390px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: white;
+    margin-right: 30px;
+}
+
+.imagelogiciels{
+    margin-right: 16px;
+    margin-left: 14px;
+    height: 260px;
+    background-color: rgba(255, 255, 0, 0.384);
+}
+
+.imagelogiciels img:hover{
+    opacity: 0.5;
+}
+
+.cardlogicielbody{    
+    margin-top: 30px;
+}
+
+.cardlogicielbody p{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    width: 350px;
+}
+
+.cardlogicielbody:hover{
+    background-color: rgba(255, 255, 0, 0.384);
+}
+
+.panier{
+    background-color: black;
+    width: 320px;
+    height: 40px;
+    margin-top: -3px;
+    text-align: center;
+    margin-right: 14px;
+    margin-left: 14px;
+}
+
+.panier:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+
+.panier a{
+    color: white;
+    text-decoration: none;
+    line-height: 40px;
+}
