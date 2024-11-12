@@ -1,0 +1,88 @@
+
+.logo{
+    color: blue;
+    font-size:80px;
+    
+}
+.back{
+    
+    background-image: url(image/4.jpeg);
+    height: 500px; ;
+    
+
+}
+.home{
+    margin-top: 50px;
+    background-color: rgb(6, 6, 117);
+    background-position: 500px;
+    justify-content: space-between;
+    width: 500px;
+    height: 300px;
+}
+.home h2 {
+    color: white;
+}
+.home p{
+    color: white;
+}
+.menu{
+    padding-top: 40PX;
+     align-items: center;
+}
+.menu ul li{
+    list-style-type: none;
+    display: inline;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    display: inline;
+    padding: 35px;
+    border-bottom: ;
+}
+.navbar{
+    display: flex;
+}
+div h3{
+    color: blue;
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+div h1{
+    color: darkorange;
+}
+footer .container{
+    background-color: blue;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+.container ul{
+    list-style: none;
+}
+.footer-col h4{
+    color: darkorange;
+    font-size: 40PX;
+}
+.container ul li a{
+    color: beige;
+}
+.container ul i{
+    color: white;
+    display: flex;
+}
+.row h5{
+color: white;
+font-size: 30px;
+}
+
+
+
+
+
