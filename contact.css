@@ -7,7 +7,23 @@
 
 .imagecontact{
     margin-left: 50px;
-    filter: brightness(25%);
+    background-color: rgba(0, 0, 255, 0.836);
+}
+
+img{
+    mix-blend-mode: color-burn;
+}
+
+.contactinfo{
+    position: absolute;
+    top: 65%;
+    left: 17%;
+    height: 110px;
+    width: 40%;
+    color: white;
+    padding: 4px;
+    font-size: 17px;
+    line-height: 18px;
 }
 
 .formcontact{
@@ -25,10 +41,16 @@
 }
 
 .envoyer{
-    border: 1px solid black;
     width: 130px;
     height: 40px;
     background-color: blue;
+    text-align: center;
+}
+
+.envoyer a{
+    color: white;
+    text-decoration: none;
+    line-height: 39px;
 }
 
 .cartecontact{
