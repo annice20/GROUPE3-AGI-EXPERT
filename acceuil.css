@@ -41,6 +41,22 @@ nav ul li a{
 	padding:20px
 }
 
+nav ul a:hover{
+	background-color:rgb(129, 126, 126);
+}
+
+nav a::after{
+	content: "";
+	position: absolute;
+	left: 472px;
+	bottom: 550px;
+	width: 6%;
+	height: 3px;
+	background: #3B5998;
+	border-radius: 40px;
+	transition: 2s;
+}
+
 .image img{
 	position: absolute;
 	margin-top: 200px;
