@@ -1,30 +1,58 @@
 
-.logo{
+/*.logo{
     color: blue;
     font-size:80px;
     
-}
+}*/
 .back{
-    
     background-image: url(image/4.jpeg);
-    height: 500px; ;
-    
-
+    height: 500px;
+    margin-top: 90px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
+
 .home{
+    position: absolute;
+    background-color: rgba(0, 0, 255, 0.664);
+    top: 275px;
+    left: 50px;
+    height: 230px;
+    width: 50%;
+    color: white;
+    padding: 4px;
+    font-size: 20px;
+    line-height: 18px;
+}
+
+.home h2{
+    margin-top: 60px;
+    padding: 2px 16px;
+}
+
+.home p{
+    padding: 2px 16px;
+}
+
+/*.home{
+    border: 1px solid red;
     margin-top: 50px;
+    margin-left: 20px;
     background-color: rgb(6, 6, 117);
     background-position: 500px;
     justify-content: space-between;
     width: 500px;
     height: 300px;
-}
+}*/
+
+
 .home h2 {
     color: white;
 }
 .home p{
     color: white;
 }
+/*
 .menu{
     padding-top: 40PX;
      align-items: center;
@@ -42,7 +70,7 @@
 }
 .navbar{
     display: flex;
-}
+}*/
 div h3{
     color: blue;
     font-size: 40px;
