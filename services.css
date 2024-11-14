@@ -104,9 +104,10 @@ body{
     height: 40px;
     border-radius: 25px;
     background-color: blue;
-    top: 86%;
-    left: 75%;
+    top: 95%;
+    left: 76%;
     transform: translate(-50%, -50%);
+    border: 1px solid white;
 }
 
 .voirplus p{
@@ -216,7 +217,7 @@ footer p{
 
 .footerfin{
     margin-top: 250px;
-    margin-left: -60%;
+    margin-left: -54%;
 }
 
 hr{
